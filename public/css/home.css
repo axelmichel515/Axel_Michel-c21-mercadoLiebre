@@ -1,0 +1,97 @@
+ 
+ .home__header--nav-logo{
+   width: 180px;
+   margin:20px;
+ }
+
+ .home__header--nav-buscador{
+   margin-left: 20px;
+ }
+
+ .home__header--nav-buscador #buscar{
+   width: 170px;
+   border-radius: 2px;
+   display: block;
+   padding: 2px 0;
+ }
+ 
+
+ .home__header--nav-buscador i{
+   border-radius: 2px;
+   background-color: var(--colorGrisClaro);
+   border: solid 1px;
+   margin-top: 2px;
+   padding: 2px 1px;
+   
+ }
+
+
+ .home__header--h4{
+   margin-top: 20px;
+   text-align: center;
+   }
+
+   .home__header h4{
+    font-size: 13px;
+    font-weight: bold;
+   }
+
+ .home__header--nav-links1{
+   padding-top: 20px;
+   font-weight: 600;
+ }
+
+ .home__header--nav-links2{
+   margin:20px 0;
+   font-weight: 600;
+ }
+
+ .home__header--nav-links2 ul li i{
+  padding-left: 3px;
+  font-weight: medium;
+ }
+
+ .home__header--nav-burguer{
+   text-align: center;
+ }
+
+ .home__header--nav-burguer i{
+   margin-bottom: 20px;
+   background-color: var(--colorAzul);
+   color: #ffffff;
+   padding: 18px 10px;
+   border-radius: 5px;
+   
+ }
+
+
+.home__footer--info{
+  text-align: center;
+}
+
+.home__footer--info h4{
+  color: var(--colorGrisOscuro);
+  font-size: 16px;
+}
+
+.home__footer--info i{
+  color: var(--colorCeleste);
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.home__footer--info-paga{
+  margin: 50px 40px;
+}
+
+.home__footer--info-envio{
+  margin: 50px 35px;
+}
+
+.home__footer--info-seguridad{
+  margin: 50px 40px;
+}
+
+.home__footer--copyright{
+  padding: 0 0 20px 15px ;
+}
