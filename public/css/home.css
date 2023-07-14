@@ -1,0 +1,222 @@
+ 
+ .home__header--nav-logo{
+   width: 180px;
+   margin:20px;
+ }
+
+ .home__header--nav-buscador{
+   display: flex;
+   flex-direction: row ;
+   justify-content: space-between 10px;
+   margin-left: 20px;
+ }
+
+ .home__header--nav-buscador #buscar{
+   width: 170px;
+   border-radius: 2px;
+   display: block;
+   padding: 2px 0;
+ }
+ 
+
+ .home__header--nav-buscador i{
+   border-radius: 2px;
+   background-color: var(--colorGrisClaro);
+   border: solid 1px;
+   margin-left: 4px;
+   padding: 5px 3px;
+   
+ }
+
+
+ .home__header--h4{
+   margin-top: 20px;
+   text-align: center;
+   }
+
+   .home__header h4{
+    font-size: 13px;
+    font-weight: bold;
+   }
+
+ .home__header--nav-links1{
+   padding-top: 20px;
+   font-weight: 600;
+   display:none;
+ }
+
+
+ .home__header--nav-links1 ul li i{
+  padding-left: 3px;
+  font-weight: medium;
+ }
+
+ .home__header--nav-burguer{
+   text-align: center;
+   font-size: larger;
+
+ }
+
+ .home__header--nav-burguer i{
+   margin: 25px auto 20px;
+   background-color: var(--colorAzul);
+   color: #ffffff;
+   padding: 20px 12px;
+   border-radius: 5px;
+   
+ }
+
+
+.home__footer--info{
+  text-align: center;
+}
+
+.home__footer--info h4{
+  color: var(--colorGrisOscuro);
+  font-size: 16px;
+}
+
+.home__footer--info i{
+  color: var(--colorCeleste);
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.home__footer--info-paga{
+  margin: 50px 40px;
+}
+
+.home__footer--info-envio{
+  margin: 50px 35px;
+}
+
+.home__footer--info-seguridad{
+  margin: 50px 40px;
+}
+
+.home__footer--copyright{
+  padding: 0 0 20px 15px ;
+}
+
+.home__main{
+  text-align: center;
+  background-color: var(--colorGrisClaro);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.home__main h6{
+  display:none;
+ }
+
+.home__main--banner img{
+   width: 100vw;
+   height: 12vh;
+}
+
+.home__main h3{
+  color: var(--colorGrisOscuro);
+  padding: 5px 0 20px;
+  text-align: left;
+}
+
+
+
+.home__main--sections img{
+  width: 90vw;
+  
+  
+ }
+ 
+ .home__main--sections p{
+  text-align:left;
+
+  
+ }
+
+ .home__main--sections-articles{
+  background-color: #ffffff;
+ }
+
+ .home__main--article-description{
+  width:auto;
+  height:auto;
+  padding:15px 10px;
+  border-top: solid 1px var(--colorGrisClaro);
+  display:flex;
+  flex-direction:column;
+  margin-bottom:10px;
+ }
+
+ .home__main--sections-truck {
+  display: flex;
+  border: solid 1px var(--colorVerde);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  
+ }
+
+ .home__main--sections-truck i{
+  color: var(--colorVerde);
+  padding-top: 8px;
+
+ }
+
+ @media (min-width:361px){
+  .home__header--nav-logo{
+    width: 200px;
+  }
+ 
+    .home__header--nav-buscador #buscar{
+    width: 150px;
+    height:20px;
+    
+    
+  }
+   .home__header--nav-buscador i{
+    width:10px;
+    height:2x;
+    font-size:xx-small;
+    
+  }
+   
+   .home__main--banner img{
+     height:15vh;
+  }
+    .home__header--nav-links1{
+    padding: 20px 0 20px 20px;
+    font-weight:normal;
+    
+    display:flex;
+  }
+   .home__header--nav-burguer{
+    text-align: center;
+    font-size: larger;
+    display:none;
+ 
+  }
+   .home__main h6{
+   display:flex;
+  }
+   
+ .home__main--sections img{
+   height: 90vw;
+   
+   
+  }
+   .home__main--sections-articles{
+   box-shadow: 0px 0px 10px rgb(100,100,100);
+  }
+  
+  }
+
+ @media (min-width:768px){
+  
+  .home__main--banner img{
+    height:30vh;
+ }
+ }
