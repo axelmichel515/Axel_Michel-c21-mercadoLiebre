@@ -1,0 +1,72 @@
+/*LOGIN INPUT*/
+
+.form__login input{
+    width:70vw;
+    height:8vh;
+    border:none;
+    border-radius:5px;
+}
+
+/*REGISTER INPUT*/ 
+
+.form__register-data ::placeholder{
+    padding:10px;
+}
+
+.form__register-data input{
+    width:100%;
+    height:30px;
+    border:none;
+    border-radius:3px;
+}
+
+.form__register-data input#categorias{
+    height:15px;
+}
+
+.form__register-data input#perfil{
+    display:flex;
+    flex-direction:column;
+    height:15px;
+}
+
+.form__register-data-radio{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.radio__buttons{
+    display:flex;
+    gap:20px;
+}
+
+.form__register-data-check{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    
+    gap:20px;
+}
+
+.check__buttons{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:25px;
+}
+
+.check__item{
+    display:flex;
+    gap:20px;
+}
+
+@media (min-width:768px){
+    .form__register-data input{
+    box-shadow:0px 1px 10px ;
+}
+    .form__login input{
+    width:500px;
+    box-shadow:0px 0px 20px var(--colorGrisOscuro);
+}
+}
