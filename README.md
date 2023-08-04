@@ -6,4 +6,5 @@
    <li><a href="https://github.com/axelmichel515/mercadoLiebre/tree/dise%C3%B1oAdaptativo">Proyecto Mercado Liebre PT3 - Diseño Adaptativo</a></li>
    <li><a href="https://github.com/axelmichel515/mercadoLiebre/tree/flexBox">Proyecto Mercado Liebre PT4 - Diseño Adaptativo Con FlexBox</a></li>
    <li><a href="https://github.com/axelmichel515/mercadoLiebre/tree/formMl">Proyecto Mercado Liebre PT5 - Formularios - Registro y Login</a></li>
+   <li><a href="https://github.com/axelmichel515/Axel_Michel-c21-mercadoLiebre/tree/animaciones">Proyecto Mercado Liebre PT6 - Animaciones</a></li>
 </ul>
